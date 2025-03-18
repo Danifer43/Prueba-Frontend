@@ -45,7 +45,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# Getting Started with Create React App
+# Pasos para ejecutar el proyecto
 
 ## Instalar las dependencias
 
