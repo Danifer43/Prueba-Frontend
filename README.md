@@ -45,8 +45,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
-<em> Prueba para Desarrollador Junior – React </em>
+# Getting Started with Create React App
 
 ## Instalar las dependencias
 
@@ -54,6 +53,8 @@ npm install
 
 ## Ejecutar el proyecto con
 
-npm run build
+npm run start
 
 <h1 align="center"> Autor: Daniel Grismaldo</h1>
+
+<em> Prueba para Desarrollador Junior – React </em>
