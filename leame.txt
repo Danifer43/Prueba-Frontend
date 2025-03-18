@@ -1,0 +1,17 @@
+-------------------------------------------
+////////// Creacion del proyecto////////
+-------------------------------------------
+
+npx create-react-app taller08_crudpro --template typescript
+
+
+-------------------------------------------
+////////// Librerias ///////////////////
+-------------------------------------------
+
+npm i bootstrap
+npm i @fortawesome/fontawesome-free
+npm i react-router-dom
+npm i react-bootstrap
+
+

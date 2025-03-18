@@ -1,0 +1,105 @@
+/* Variables de colores */
+:root {
+    --footer-bg: #222;
+    --footer-text: #fff;
+    --footer-highlight: #F2B705;
+}
+
+/* Estilos generales */
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Contenedor flexible */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+/* Columnas del footer */
+.footer-column {
+    text-align: center;
+    max-width: 300px;
+}
+
+.footer-column h3 {
+    color: var(--footer-highlight);
+    margin-bottom: 10px;
+}
+
+/* Logo */
+.logo-footer {
+    height: 60px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-footer:hover {
+    transform: scale(1.1);
+}
+
+/* Redes sociales */
+.social-icons a {
+    color: var(--footer-text);
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: var(--footer-highlight);
+}
+
+/* Enlaces */
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    color: var(--footer-text);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: var(--footer-highlight);
+}
+
+/* Información de contacto */
+.footer-column p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Íconos de contacto */
+.footer-column p i {
+    margin-right: 8px;
+    color: var(--footer-highlight);
+}
+
+/* Copyright */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

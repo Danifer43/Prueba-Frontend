@@ -1,0 +1,82 @@
+/* Variables de colores para personalización */
+:root {
+    --primary-color: #F28705;  /* Color principal */
+    --background-color: #201626;  /* Fondo oscuro */
+    --text-color: #fff;        /* Color de texto */
+    --hover-color: #A6386B;    /* Color de hover */
+}
+
+/* Estilos generales del navbar */
+.custom-navbar {
+    background-color: var(--background-color) !important;
+    padding: 12px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.navbar-nav .nav-link:hover {
+    color: var(--hover-color);
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);
+}
+
+.dropdown-item {
+    color: var(--text-color);
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+/* Botón de contacto*/
+.btn-login {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    background-color: var(--hover-color);
+    color: var(--background-color);
+}
+
+.navbar-toggler {
+    background-color: #ff6600; /* Cambia el color de fondo */
+    border: 1px solid #ff6600; /* Borde opcional */
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%); /* Hace que el icono se vuelva blanco */
+}
+/* Responsivo */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar-right {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
